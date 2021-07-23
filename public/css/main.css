@@ -1,0 +1,114 @@
+body{
+    background-color: #eee;
+    font-family: system-ui;
+}
+
+.section-panel {
+    background-color: #ddd;
+    display: block;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.section-panel-title {
+    font-size: 26px;
+    margin: 5px;
+    font-weight: 400;
+}
+
+.section-panel-description {
+    margin: 5px;
+    font-size: 14px;
+}
+
+.horizontal-array {
+    animation-name: horizontal-array-animation;
+    animation-duration: 2s;
+    overflow-x: auto;
+}
+
+@keyframes horizontal-array-animation {
+    from {
+        overflow-x: hidden;
+    }
+    to {
+        overflow-x: auto;
+    }
+}
+
+.horizontal-array-list {
+    list-style-type: none;
+}
+
+.horizontal-array-item {
+    display: inline-block;
+    animation-name: horizontal-array-item-animation;
+    animation-duration: 0.75s;
+}
+
+@keyframes horizontal-array-item-animation {
+    from {
+        transform: translateX(3000px);
+    }
+    to {
+        transform: ();
+    }
+}
+
+.language-panel {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.language-panel:hover {
+    background-color: #ddd;
+}
+
+.language-panel-img {
+    width: 120px;
+    height: 120px;
+}
+
+.language-panel-name {
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    margin: 0px;
+}
+
+.language-panel-crown {
+    position: absolute;
+    
+    animation-name: language-panel-crown-animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes language-panel-crown-animation {
+    0% {
+        transform: 
+        scale(3)
+        translate(-2px, -6px)
+        rotate(-30deg);
+    }
+    50% {
+        transform: 
+        scale(2.75)
+        translate(-2px, -6px)
+        rotate(-30deg);
+    }
+    100% {
+        transform: 
+        scale(3)
+        translate(-2px, -6px)
+        rotate(-30deg);
+    }
+}
