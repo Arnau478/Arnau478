@@ -1,2 +1,5 @@
-# Who am I?
-I'm Arnau478, a spanish full-stack developer. I really love coding, and this is my porfolio's GitHub repository.
+# Hi! This is me!
+📜 Compiler developer<br>
+💾 OS-dev as a hobby<br>
+⚔️ Linux lover<br>
+🧪 Coding since 2016<br>
