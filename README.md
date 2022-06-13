@@ -3,3 +3,4 @@
 💾 OS-dev as a hobby<br>
 ⚔️ Linux lover<br>
 🧪 Coding since 2016<br>
+🤔 What would programming be like without C?<br>
